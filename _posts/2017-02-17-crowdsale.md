@@ -39,6 +39,6 @@ assets sales and differentiate it from traditional equity crowdfunding.
 
 There are different platforms, blockchains and protocols available for doing a crowdsale,
 some of them are built on top of Bitcoin, some on top of Ethereum and others. The Bitcoin network is the most 
-secure because of the proof of work and adoption.
+secure because of proof of work and adoption.
 
 
