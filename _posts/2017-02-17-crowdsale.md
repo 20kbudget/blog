@@ -26,7 +26,7 @@ for different kinds of arrangements. They can be used to:
 
 - pay dividends for the token-holders
 - give refunds on failure
-- give token-holder voting rights
+- give token-holders voting rights
 - represent some phisical reward
 - represent ownership in the project
 - be traded in the free market, or used as currency

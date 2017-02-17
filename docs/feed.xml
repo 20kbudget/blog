@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.4.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-02-17T17:20:57-02:00</updated><id>http://localhost:4000//</id><title type="html">20k Budget</title><subtitle>My name is Fabricio Zuardi and this is the diary of my journey into developing a low-budget indie game.
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.4.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-02-17T17:24:05-02:00</updated><id>http://localhost:4000//</id><title type="html">20k Budget</title><subtitle>My name is Fabricio Zuardi and this is the diary of my journey into developing a low-budget indie game.
 </subtitle><entry><title type="html">Raising funds: what is a Crowdsale?</title><link href="http://localhost:4000/2017/02/17/crowdsale.html" rel="alternate" type="text/html" title="Raising funds: what is a Crowdsale?" /><published>2017-02-17T00:00:00-02:00</published><updated>2017-02-17T00:00:00-02:00</updated><id>http://localhost:4000/2017/02/17/crowdsale</id><content type="html" xml:base="http://localhost:4000/2017/02/17/crowdsale.html">&lt;p&gt;Projects demands resources, and funding is always a challenge.&lt;/p&gt;
 
 &lt;p&gt;Among the available options for an indie developer or an indie development studio to raise money for a project, we have some
@@ -27,7 +27,7 @@ for different kinds of arrangements. They can be used to:&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;pay dividends for the token-holders&lt;/li&gt;
   &lt;li&gt;give refunds on failure&lt;/li&gt;
-  &lt;li&gt;give token-holder voting rights&lt;/li&gt;
+  &lt;li&gt;give token-holders voting rights&lt;/li&gt;
   &lt;li&gt;represent some phisical reward&lt;/li&gt;
   &lt;li&gt;represent ownership in the project&lt;/li&gt;
   &lt;li&gt;be traded in the free market, or used as currency&lt;/li&gt;
