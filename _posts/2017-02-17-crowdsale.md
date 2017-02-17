@@ -31,7 +31,7 @@ for different kinds of arrangements. They can be used to:
 - represent ownership in the project
 - be traded in the free market, or used as currency
 
-Basically your have enough flexibility to come up with any set of your own crazy rules, and even write software to enforce
+Basically you have enough flexibility to come up with any set of your own crazy rules, and even write software to enforce
 some of your made-up rules if you are inclined to go on that path.
 
 People use the terms **crowdsale**, or **ICO** (initial coin offer), or **equity crowdsale** to describe those digital
