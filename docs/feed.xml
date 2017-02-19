@@ -1,5 +1,29 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.4.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-02-17T17:31:30-02:00</updated><id>http://localhost:4000//</id><title type="html">20k Budget</title><subtitle>My name is Fabricio Zuardi and this is the diary of my journey into developing a low-budget indie game.
-</subtitle><entry><title type="html">Raising funds: what is a Crowdsale?</title><link href="http://localhost:4000/2017/02/17/crowdsale.html" rel="alternate" type="text/html" title="Raising funds: what is a Crowdsale?" /><published>2017-02-17T00:00:00-02:00</published><updated>2017-02-17T00:00:00-02:00</updated><id>http://localhost:4000/2017/02/17/crowdsale</id><content type="html" xml:base="http://localhost:4000/2017/02/17/crowdsale.html">&lt;p&gt;Projects demands resources, and funding is always a challenge.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.4.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-02-18T23:06:21-02:00</updated><id>http://localhost:4000//</id><title type="html">20k Budget</title><subtitle>My name is Fabricio Zuardi and this is the diary of my journey into developing a low-budget indie game.
+</subtitle><entry><title type="html">Time tracking</title><link href="http://localhost:4000/2017/02/18/timesheet.html" rel="alternate" type="text/html" title="Time tracking" /><published>2017-02-18T00:00:00-02:00</published><updated>2017-02-18T00:00:00-02:00</updated><id>http://localhost:4000/2017/02/18/timesheet</id><content type="html" xml:base="http://localhost:4000/2017/02/18/timesheet.html">&lt;p&gt;I am on a quest to figure out if it is possible to make money with
+a low budget independent game, among &lt;a href=&quot;http://blog.20kbudget.com/2017/02/16/the-bet.html&quot;&gt;other things&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;In order to monitor how well I am doing, to give feedback and transparency
+to any potential &lt;a href=&quot;http://blog.20kbudget.com/2017/02/17/crowdsale.html&amp;lt;Paste&amp;gt;&quot;&gt;investors&lt;/a&gt; and even for my own control
+of where and how fast I am spending the arbitrary budget
+of 20k dolllars that I have set, I need to somehow log all my &lt;a href=&quot;https://github.com/20kbudget/expenses&quot;&gt;expenses&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;So if I hire an illustrator, a writer, a developer or some other kind of
+artist, my plan is to document that cost.&lt;/p&gt;
+
+&lt;p&gt;At the moment, I haven’t raised funds yet, and the only person
+that I know available to work without compensation for me is myself :)&lt;/p&gt;
+
+&lt;p&gt;But that’s not really true as well, because I will be investing my
+time in this one-person-team, so I figure I must do something that I
+really dislike, and that is filling up &lt;strong&gt;fucking timesheets&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;That way I will be able to pay myself eventually, which is nice.&lt;/p&gt;
+
+&lt;p&gt;So I will be testing a couple of options this weekend, I think I prefer
+CLI and simple ones, although I have used web based ones in the past 
+and they are quite OK as well (&lt;a href=&quot;https://toggl.com/&quot;&gt;toggl&lt;/a&gt; comes to mind). But nothing super fancy,
+I will just pick any half-decent one (maybe &lt;a href=&quot;https://github.com/samg/timetrap&quot;&gt;timetrap&lt;/a&gt;) and get this out of my way.&lt;/p&gt;</content><summary type="html">I am on a quest to figure out if it is possible to make money with
+a low budget independent game, among other things.</summary></entry><entry><title type="html">Raising funds: what is a Crowdsale?</title><link href="http://localhost:4000/2017/02/17/crowdsale.html" rel="alternate" type="text/html" title="Raising funds: what is a Crowdsale?" /><published>2017-02-17T00:00:00-02:00</published><updated>2017-02-17T00:00:00-02:00</updated><id>http://localhost:4000/2017/02/17/crowdsale</id><content type="html" xml:base="http://localhost:4000/2017/02/17/crowdsale.html">&lt;p&gt;Projects demands resources, and funding is always a challenge.&lt;/p&gt;
 
 &lt;p&gt;Among the available options for an indie developer or an indie development studio to raise money for a project, we have some
 options that are quite common and well tested, such as:&lt;/p&gt;
