@@ -6,11 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>20k Budget</title>
-  <meta name="description" content="My name is Fabricio Zuardi and this is the diary of my journey into developing a low-budget indie game.">
+  <title>Hello World pt. I</title>
+  <meta name="description" content="Today I started a simple Android app just to get my feets wet, test my stack and start writing the basics of a building system based on Javascript tooling.">
 
   <link rel="stylesheet" href="/assets/main.css">
-  <link rel="canonical" href="http://localhost:4000/">
+  <link rel="canonical" href="http://localhost:4000/2017/02/21/daily-02.html">
   <link rel="alternate" type="application/rss+xml" title="20k Budget" href="/feed.xml">
   
   
@@ -58,60 +58,54 @@
 
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        <div class="home">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-  <h1 class="page-heading">Posts</h1>
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Hello World pt. I</h1>
+    <p class="post-meta"><time datetime="2017-02-21T00:00:00-03:00" itemprop="datePublished">Feb 21, 2017</time></p>
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+    <p>Today I started a <a href="https://github.com/20kbudget/hello">simple Android app</a>
+just to get my feets wet, test my stack and start writing
+the basics of a building system based on
+Javascript tooling.</p>
+
+<p>I have been using <a href="http://www.pixijs.com/">Pixi</a> as the framework of choice
+to draw things on canvas (aka a WebGL framework). It has
+good documentation and covers most of the stuff
+needed for a 2D webgame.</p>
+
+<p>As a tool to wrap the game inside an android WebView
+and to pack it as an apk <a href="http://cordova.apache.org/">Cordova</a> fits the purpose.</p>
+
+<p><a href="http://browserify.org/">Browserify</a> is a simple to use
+javascript dependencies bundler,
+and since I also need a development webserver,
+there are options that goes well with browserify,
+such as <a href="https://github.com/mattdesl/budo">budo</a> or <a href="https://github.com/yoshuawuyts/bankai/">bankai</a>.</p>
+
+<p><a href="https://github.com/mattdesl/budo">Budo</a> is a complete and mature option,
+but I decided to give <a href="https://github.com/yoshuawuyts/bankai/">bankai</a>
+another shot, because it has a “build” command
+to copy the bundles to a folder.</p>
+
+<p>Content policy of cordova gave me errors
+regarding the use of eval (new Function)
+by the Pixi library, possibly <a href="https://github.com/pixijs/pixi-gl-core/issues/19">this bug</a>.</p>
+
+<p>The solution for now was
+to <a href="https://github.com/20kbudget/cordova-game-shell/commit/f073e9fa59d721469d4c19201bda910ad1fe1a41">include a ‘unsafe-eval’</a>
+in the meta tag of the html.</p>
+
+<p>There is not much to see but… <a href="https://github.com/20kbudget/hello/releases/tag/v0.1.3">here is the release of the day</a>,
+super ugly!</p>
+
+
+  </div>
+
   
-  
-
-
-  <ul class="post-list">
-    
-      <li>
-        <span class="post-meta">Feb 21, 2017</span>
-
-        <h2>
-          <a class="post-link" href="/2017/02/21/daily-02.html">Hello World pt. I</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Feb 20, 2017</span>
-
-        <h2>
-          <a class="post-link" href="/2017/02/20/daily-01.html">Daily Status (Sat, Sun, Mon)</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Feb 18, 2017</span>
-
-        <h2>
-          <a class="post-link" href="/2017/02/18/timesheet.html">Time tracking</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Feb 17, 2017</span>
-
-        <h2>
-          <a class="post-link" href="/2017/02/17/crowdsale.html">Raising funds: what is a Crowdsale?</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Feb 16, 2017</span>
-
-        <h2>
-          <a class="post-link" href="/2017/02/16/the-bet.html">The Bet</a>
-        </h2>
-      </li>
-    
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p>
-
-</div>
+</article>
 
       </div>
     </main>

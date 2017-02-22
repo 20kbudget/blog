@@ -1,5 +1,41 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.4.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-02-20T21:25:47-03:00</updated><id>http://localhost:4000//</id><title type="html">20k Budget</title><subtitle>My name is Fabricio Zuardi and this is the diary of my journey into developing a low-budget indie game.
-</subtitle><entry><title type="html">Daily Status (Sat, Sun, Mon)</title><link href="http://localhost:4000/2017/02/20/daily-01.html" rel="alternate" type="text/html" title="Daily Status (Sat, Sun, Mon)" /><published>2017-02-20T00:00:00-03:00</published><updated>2017-02-20T00:00:00-03:00</updated><id>http://localhost:4000/2017/02/20/daily-01</id><content type="html" xml:base="http://localhost:4000/2017/02/20/daily-01.html">&lt;h2 id=&quot;distribution-channels&quot;&gt;Distribution Channels&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.4.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-02-21T23:57:54-03:00</updated><id>http://localhost:4000//</id><title type="html">20k Budget</title><subtitle>My name is Fabricio Zuardi and this is the diary of my journey into developing a low-budget indie game.
+</subtitle><entry><title type="html">Hello World pt. I</title><link href="http://localhost:4000/2017/02/21/daily-02.html" rel="alternate" type="text/html" title="Hello World pt. I" /><published>2017-02-21T00:00:00-03:00</published><updated>2017-02-21T00:00:00-03:00</updated><id>http://localhost:4000/2017/02/21/daily-02</id><content type="html" xml:base="http://localhost:4000/2017/02/21/daily-02.html">&lt;p&gt;Today I started a &lt;a href=&quot;https://github.com/20kbudget/hello&quot;&gt;simple Android app&lt;/a&gt;
+just to get my feets wet, test my stack and start writing
+the basics of a building system based on
+Javascript tooling.&lt;/p&gt;
+
+&lt;p&gt;I have been using &lt;a href=&quot;http://www.pixijs.com/&quot;&gt;Pixi&lt;/a&gt; as the framework of choice
+to draw things on canvas (aka a WebGL framework). It has
+good documentation and covers most of the stuff
+needed for a 2D webgame.&lt;/p&gt;
+
+&lt;p&gt;As a tool to wrap the game inside an android WebView
+and to pack it as an apk &lt;a href=&quot;http://cordova.apache.org/&quot;&gt;Cordova&lt;/a&gt; fits the purpose.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://browserify.org/&quot;&gt;Browserify&lt;/a&gt; is a simple to use
+javascript dependencies bundler,
+and since I also need a development webserver,
+there are options that goes well with browserify,
+such as &lt;a href=&quot;https://github.com/mattdesl/budo&quot;&gt;budo&lt;/a&gt; or &lt;a href=&quot;https://github.com/yoshuawuyts/bankai/&quot;&gt;bankai&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/mattdesl/budo&quot;&gt;Budo&lt;/a&gt; is a complete and mature option,
+but I decided to give &lt;a href=&quot;https://github.com/yoshuawuyts/bankai/&quot;&gt;bankai&lt;/a&gt;
+another shot, because it has a “build” command
+to copy the bundles to a folder.&lt;/p&gt;
+
+&lt;p&gt;Content policy of cordova gave me errors
+regarding the use of eval (new Function)
+by the Pixi library, possibly &lt;a href=&quot;https://github.com/pixijs/pixi-gl-core/issues/19&quot;&gt;this bug&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The solution for now was
+to &lt;a href=&quot;https://github.com/20kbudget/cordova-game-shell/commit/f073e9fa59d721469d4c19201bda910ad1fe1a41&quot;&gt;include a ‘unsafe-eval’&lt;/a&gt;
+in the meta tag of the html.&lt;/p&gt;
+
+&lt;p&gt;There is not much to see but… &lt;a href=&quot;https://github.com/20kbudget/hello/releases/tag/v0.1.3&quot;&gt;here is the release of the day&lt;/a&gt;,
+super ugly!&lt;/p&gt;</content><summary type="html">Today I started a simple Android app
+just to get my feets wet, test my stack and start writing
+the basics of a building system based on
+Javascript tooling.</summary></entry><entry><title type="html">Daily Status (Sat, Sun, Mon)</title><link href="http://localhost:4000/2017/02/20/daily-01.html" rel="alternate" type="text/html" title="Daily Status (Sat, Sun, Mon)" /><published>2017-02-20T00:00:00-03:00</published><updated>2017-02-20T00:00:00-03:00</updated><id>http://localhost:4000/2017/02/20/daily-01</id><content type="html" xml:base="http://localhost:4000/2017/02/20/daily-01.html">&lt;h2 id=&quot;distribution-channels&quot;&gt;Distribution Channels&lt;/h2&gt;
 
 &lt;p&gt;I got some time to spend in front of the computer
 this weekend and used it to research / compare different
