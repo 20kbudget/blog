@@ -6,11 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Hello World pt. I</title>
-  <meta name="description" content="Today I started a simple Android app just to get my feets wet, test my stack and start writing the basics of a building system based on Javascript tooling.">
+  <title>Fullscreen on Cordova</title>
+  <meta name="description" content="To launch and app fullscreen and force landscape mode, this are the two preferences that needs to be added in the config.xml file:">
 
   <link rel="stylesheet" href="/assets/main.css">
-  <link rel="canonical" href="/2017/02/21/daily-02.html">
+  <link rel="canonical" href="/2017/02/22/cordova-fullscreen.html">
   <link rel="alternate" type="application/rss+xml" title="20k Budget" href="/feed.xml">
   
   
@@ -61,71 +61,20 @@
         <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title" itemprop="name headline">Hello World pt. I</h1>
-    <p class="post-meta"><time datetime="2017-02-21T00:00:00-03:00" itemprop="datePublished">Feb 21, 2017</time></p>
+    <h1 class="post-title" itemprop="name headline">Fullscreen on Cordova</h1>
+    <p class="post-meta"><time datetime="2017-02-22T00:00:00-03:00" itemprop="datePublished">Feb 22, 2017</time></p>
   </header>
 
   <div class="post-content" itemprop="articleBody">
-    <p>Today I started a <a href="https://github.com/20kbudget/hello">simple Android app</a>
-just to get my feets wet, test my stack and start writing
-the basics of a building system based on
-Javascript tooling.</p>
+    <p>To launch and app fullscreen and force landscape mode, this are 
+the two preferences that needs to be added in the config.xml file:</p>
 
-<p>I have been using <a href="http://www.pixijs.com/">Pixi</a> as the framework of choice
-to draw things on canvas (aka a WebGL framework). It has
-good documentation and covers most of the stuff
-needed for a 2D webgame.</p>
-
-<p>As a tool to wrap the game inside an android WebView
-and to pack it as an apk <a href="http://cordova.apache.org/">Cordova</a> fits the purpose.</p>
-
-<p><a href="http://browserify.org/">Browserify</a> is a simple to use
-javascript dependencies bundler,
-and since I also need a development webserver,
-there are options that goes well with browserify,
-such as <a href="https://github.com/mattdesl/budo">budo</a> or <a href="https://github.com/yoshuawuyts/bankai/">bankai</a>.</p>
-
-<p><a href="https://github.com/mattdesl/budo">Budo</a> is a complete and mature option,
-but I decided to give <a href="https://github.com/yoshuawuyts/bankai/">bankai</a>
-another shot, because it has a “build” command
-to copy the bundles to a folder.</p>
-
-<p>Content policy of cordova gave me errors
-regarding the use of eval (new Function)
-by the Pixi library, possibly <a href="https://github.com/pixijs/pixi-gl-core/issues/19">this bug</a>.</p>
-
-<p>The solution for now was
-to <a href="https://github.com/20kbudget/cordova-game-shell/commit/f073e9fa59d721469d4c19201bda910ad1fe1a41">include a ‘unsafe-eval’</a>
-in the meta tag of the html.</p>
-
-<p>There is not much to see but… <a href="https://github.com/20kbudget/hello/releases/tag/v0.1.3">here is the release of the day</a>,
-super ugly!</p>
-
-<hr />
-
-<p><br /></p>
-
-<div class="highlighter-rouge"><pre class="highlight"><code>Timesheet: dev
-    Day                Start      End        Duration   Notes
-    Tue Feb 21, 2017   14:52:06 - 17:33:43   2:41:37    hello world with pixi, bitmap font and wrapped
-                                                        with cordova
-                       17:54:16 - 19:45:12   1:50:56    hello world with pixi, bitmap font and wrapped
-                                                        with cordova
-                                             4:32:33
-    ---------------------------------------------------------------------------------------------------
-    Total                                    4:32:33
-
-Timesheet: marketing
-    Day                Start      End        Duration   Notes
-    Tue Feb 21, 2017   20:37:31 - 21:10:38   0:33:07    blog post about Pixi, cordova, bankai, prettier
-                       21:53:03 - 23:59:42   2:06:39    blog post about Pixi, cordova, bankai, prettier
-                                             2:39:46
-    ---------------------------------------------------------------------------------------------------
-    Total                                    2:39:46
--------------------------------------------------------------------------------------------------------
-Grand Total                                  7:12:19
+<div class="highlighter-rouge"><pre class="highlight"><code>&lt;preference name="Fullscreen" value="true" /&gt;
+&lt;preference name="Orientation" value="landscape" /&gt;
 </code></pre>
 </div>
+
+<p>A complete list of preferences can be found on <a href="https://cordova.apache.org/docs/en/latest/config_ref/">the docs</a>.</p>
 
 
   </div>

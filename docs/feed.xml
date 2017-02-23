@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.4.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-02-22T21:21:02-03:00</updated><id>http://localhost:4000//</id><title type="html">20k Budget</title><subtitle>My name is Fabricio Zuardi and this is the diary of my journey into developing a low-budget indie game.
-</subtitle><entry><title type="html">Fullscreen on Cordova</title><link href="http://localhost:4000/2017/02/22/cordova-fullscreen.html" rel="alternate" type="text/html" title="Fullscreen on Cordova" /><published>2017-02-22T00:00:00-03:00</published><updated>2017-02-22T00:00:00-03:00</updated><id>http://localhost:4000/2017/02/22/cordova-fullscreen</id><content type="html" xml:base="http://localhost:4000/2017/02/22/cordova-fullscreen.html">&lt;p&gt;To launch and app fullscreen and force landscape mode, this are 
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.4.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2017-02-22T21:24:10-03:00</updated><id>//</id><title type="html">20k Budget</title><subtitle>My name is Fabricio Zuardi and this is the diary of my journey into developing a low-budget indie game.
+</subtitle><entry><title type="html">Fullscreen on Cordova</title><link href="/2017/02/22/cordova-fullscreen.html" rel="alternate" type="text/html" title="Fullscreen on Cordova" /><published>2017-02-22T00:00:00-03:00</published><updated>2017-02-22T00:00:00-03:00</updated><id>/2017/02/22/cordova-fullscreen</id><content type="html" xml:base="/2017/02/22/cordova-fullscreen.html">&lt;p&gt;To launch and app fullscreen and force landscape mode, this are 
 the two preferences that needs to be added in the config.xml file:&lt;/p&gt;
 
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;preference name=&quot;Fullscreen&quot; value=&quot;true&quot; /&amp;gt;
@@ -8,7 +8,7 @@ the two preferences that needs to be added in the config.xml file:&lt;/p&gt;
 &lt;/div&gt;
 
 &lt;p&gt;A complete list of preferences can be found on &lt;a href=&quot;https://cordova.apache.org/docs/en/latest/config_ref/&quot;&gt;the docs&lt;/a&gt;.&lt;/p&gt;</content><summary type="html">To launch and app fullscreen and force landscape mode, this are 
-the two preferences that needs to be added in the config.xml file:</summary></entry><entry><title type="html">Hello World pt. I</title><link href="http://localhost:4000/2017/02/21/daily-02.html" rel="alternate" type="text/html" title="Hello World pt. I" /><published>2017-02-21T00:00:00-03:00</published><updated>2017-02-21T00:00:00-03:00</updated><id>http://localhost:4000/2017/02/21/daily-02</id><content type="html" xml:base="http://localhost:4000/2017/02/21/daily-02.html">&lt;p&gt;Today I started a &lt;a href=&quot;https://github.com/20kbudget/hello&quot;&gt;simple Android app&lt;/a&gt;
+the two preferences that needs to be added in the config.xml file:</summary></entry><entry><title type="html">Hello World pt. I</title><link href="/2017/02/21/daily-02.html" rel="alternate" type="text/html" title="Hello World pt. I" /><published>2017-02-21T00:00:00-03:00</published><updated>2017-02-21T00:00:00-03:00</updated><id>/2017/02/21/daily-02</id><content type="html" xml:base="/2017/02/21/daily-02.html">&lt;p&gt;Today I started a &lt;a href=&quot;https://github.com/20kbudget/hello&quot;&gt;simple Android app&lt;/a&gt;
 just to get my feets wet, test my stack and start writing
 the basics of a building system based on
 Javascript tooling.&lt;/p&gt;
@@ -70,7 +70,7 @@ Grand Total                                  7:12:19
 &lt;/div&gt;</content><summary type="html">Today I started a simple Android app
 just to get my feets wet, test my stack and start writing
 the basics of a building system based on
-Javascript tooling.</summary></entry><entry><title type="html">Daily Status (Sat, Sun, Mon)</title><link href="http://localhost:4000/2017/02/20/daily-01.html" rel="alternate" type="text/html" title="Daily Status (Sat, Sun, Mon)" /><published>2017-02-20T00:00:00-03:00</published><updated>2017-02-20T00:00:00-03:00</updated><id>http://localhost:4000/2017/02/20/daily-01</id><content type="html" xml:base="http://localhost:4000/2017/02/20/daily-01.html">&lt;h2 id=&quot;distribution-channels&quot;&gt;Distribution Channels&lt;/h2&gt;
+Javascript tooling.</summary></entry><entry><title type="html">Daily Status (Sat, Sun, Mon)</title><link href="/2017/02/20/daily-01.html" rel="alternate" type="text/html" title="Daily Status (Sat, Sun, Mon)" /><published>2017-02-20T00:00:00-03:00</published><updated>2017-02-20T00:00:00-03:00</updated><id>/2017/02/20/daily-01</id><content type="html" xml:base="/2017/02/20/daily-01.html">&lt;h2 id=&quot;distribution-channels&quot;&gt;Distribution Channels&lt;/h2&gt;
 
 &lt;p&gt;I got some time to spend in front of the computer
 this weekend and used it to research / compare different
@@ -146,7 +146,7 @@ Grand Total                                 10:02:40
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 
-&lt;p&gt;For the moment I will be keeping the timesheets under my &lt;a href=&quot;https://github.com/20kbudget/expenses&quot;&gt;expenses&lt;/a&gt; repo.&lt;/p&gt;</content><summary type="html">Distribution Channels</summary></entry><entry><title type="html">Time tracking</title><link href="http://localhost:4000/2017/02/18/timesheet.html" rel="alternate" type="text/html" title="Time tracking" /><published>2017-02-18T00:00:00-02:00</published><updated>2017-02-18T00:00:00-02:00</updated><id>http://localhost:4000/2017/02/18/timesheet</id><content type="html" xml:base="http://localhost:4000/2017/02/18/timesheet.html">&lt;p&gt;I am on a quest to figure out if it is possible to make money with
+&lt;p&gt;For the moment I will be keeping the timesheets under my &lt;a href=&quot;https://github.com/20kbudget/expenses&quot;&gt;expenses&lt;/a&gt; repo.&lt;/p&gt;</content><summary type="html">Distribution Channels</summary></entry><entry><title type="html">Time tracking</title><link href="/2017/02/18/timesheet.html" rel="alternate" type="text/html" title="Time tracking" /><published>2017-02-18T00:00:00-02:00</published><updated>2017-02-18T00:00:00-02:00</updated><id>/2017/02/18/timesheet</id><content type="html" xml:base="/2017/02/18/timesheet.html">&lt;p&gt;I am on a quest to figure out if it is possible to make money with
 a low budget independent game, among &lt;a href=&quot;http://blog.20kbudget.com/2017/02/16/the-bet.html&quot;&gt;other things&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;In order to monitor how well I am doing, to give feedback and transparency
@@ -170,7 +170,7 @@ really dislike, and that is filling up &lt;strong&gt;fucking timesheets&lt;/stro
 CLI and simple ones, although I have used web based ones in the past 
 and they are quite OK as well (&lt;a href=&quot;https://toggl.com/&quot;&gt;toggl&lt;/a&gt; comes to mind). But nothing super fancy,
 I will just pick any half-decent one (maybe &lt;a href=&quot;https://github.com/samg/timetrap&quot;&gt;timetrap&lt;/a&gt;) and get this out of my way.&lt;/p&gt;</content><summary type="html">I am on a quest to figure out if it is possible to make money with
-a low budget independent game, among other things.</summary></entry><entry><title type="html">Raising funds: what is a Crowdsale?</title><link href="http://localhost:4000/2017/02/17/crowdsale.html" rel="alternate" type="text/html" title="Raising funds: what is a Crowdsale?" /><published>2017-02-17T00:00:00-02:00</published><updated>2017-02-17T00:00:00-02:00</updated><id>http://localhost:4000/2017/02/17/crowdsale</id><content type="html" xml:base="http://localhost:4000/2017/02/17/crowdsale.html">&lt;p&gt;Projects demands resources, and funding is always a challenge.&lt;/p&gt;
+a low budget independent game, among other things.</summary></entry><entry><title type="html">Raising funds: what is a Crowdsale?</title><link href="/2017/02/17/crowdsale.html" rel="alternate" type="text/html" title="Raising funds: what is a Crowdsale?" /><published>2017-02-17T00:00:00-02:00</published><updated>2017-02-17T00:00:00-02:00</updated><id>/2017/02/17/crowdsale</id><content type="html" xml:base="/2017/02/17/crowdsale.html">&lt;p&gt;Projects demands resources, and funding is always a challenge.&lt;/p&gt;
 
 &lt;p&gt;Among the available options for an indie developer or an indie development studio to raise money for a project, we have some
 options that are quite common and well tested, such as:&lt;/p&gt;
@@ -212,7 +212,7 @@ assets sales and differentiate it from traditional equity crowdfunding.&lt;/p&gt
 
 &lt;p&gt;There are different platforms, blockchains and protocols available for doing a crowdsale,
 some of them are built on top of Bitcoin, some on top of Ethereum and others. The Bitcoin network is the most 
-secure because of proof of work and adoption.&lt;/p&gt;</content><summary type="html">Projects demands resources, and funding is always a challenge.</summary></entry><entry><title type="html">The Bet</title><link href="http://localhost:4000/2017/02/16/the-bet.html" rel="alternate" type="text/html" title="The Bet" /><published>2017-02-16T00:00:00-02:00</published><updated>2017-02-16T00:00:00-02:00</updated><id>http://localhost:4000/2017/02/16/the-bet</id><content type="html" xml:base="http://localhost:4000/2017/02/16/the-bet.html">&lt;h2 id=&quot;main-question&quot;&gt;Main question:&lt;/h2&gt;
+secure because of proof of work and adoption.&lt;/p&gt;</content><summary type="html">Projects demands resources, and funding is always a challenge.</summary></entry><entry><title type="html">The Bet</title><link href="/2017/02/16/the-bet.html" rel="alternate" type="text/html" title="The Bet" /><published>2017-02-16T00:00:00-02:00</published><updated>2017-02-16T00:00:00-02:00</updated><id>/2017/02/16/the-bet</id><content type="html" xml:base="/2017/02/16/the-bet.html">&lt;h2 id=&quot;main-question&quot;&gt;Main question:&lt;/h2&gt;
 
 &lt;p&gt;Can a good indie game be written on a shoestring budget?&lt;/p&gt;
 
