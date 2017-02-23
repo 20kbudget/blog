@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Raising funds: what is a Crowdsale?"
 ---
 

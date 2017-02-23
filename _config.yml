@@ -35,3 +35,15 @@ keep_files:
 exclude:
   - Gemfile
   - Gemfile.lock
+
+defaults:
+  -
+     scope:
+       path: ""
+       type: "posts"
+     values:
+       layout: "post"
+
+
+
+
