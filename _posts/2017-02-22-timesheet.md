@@ -1,0 +1,38 @@
+---
+title: Timesheet 
+---
+
+```
+Timesheet: dev
+    Day                Start      End        Duration   Notes
+    Wed Feb 22, 2017   12:53:52 - 13:40:00   0:46:08    add basic style to hello app to fill whole screen
+                                                        size
+                       17:37:35 - 18:47:24   1:09:49    add basic style to hello app to fill whole screen
+                                                        size
+                       18:49:41 - 19:41:07   0:51:26    make app launch in fullscreen mode
+                       21:42:10 - 22:51:09   1:08:59    testing fullscreen coordinates and cordova events
+                       22:51:16 - 01:33:11   2:41:55    implement a interactive text that cycle it's
+                                                        colors with pull streams
+                                             6:38:17
+    ------------------------------------------------------------------------------------------------------
+    Total                                    6:38:17
+
+Timesheet: marketing
+    Day                Start      End        Duration   Notes
+    Wed Feb 22, 2017   21:10:00 - 21:37:55   0:27:55    quick blogpost
+                                             0:27:55
+    ------------------------------------------------------------------------------------------------------
+    Total                                    0:27:55
+
+Timesheet: research
+    Day                Start      End        Duration   Notes
+    Wed Feb 22, 2017   13:46:19 - 14:12:27   0:26:08    pull streams
+                       14:15:34 - 14:41:18   0:25:44    pull streams
+                       15:50:27 - 16:39:48   0:49:21    pull streams
+                       17:04:20 - 17:18:39   0:14:19    pull streams
+                                             1:55:32
+    ------------------------------------------------------------------------------------------------------
+    Total                                    1:55:32
+----------------------------------------------------------------------------------------------------------
+Grand Total                                  9:01:44
+```
