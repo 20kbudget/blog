@@ -1,5 +1,40 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.4.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2017-02-23T01:48:37-03:00</updated><id>//</id><title type="html">20k Budget</title><subtitle>My name is Fabricio Zuardi and this is the diary of my journey into developing a low-budget indie game.
-</subtitle><entry><title type="html">Daily Report</title><link href="/2017/02/22/report.html" rel="alternate" type="text/html" title="Daily Report" /><published>2017-02-22T00:00:00-03:00</published><updated>2017-02-22T00:00:00-03:00</updated><id>/2017/02/22/report</id><content type="html" xml:base="/2017/02/22/report.html">&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Timesheet: dev
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.4.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2017-03-01T18:32:35-03:00</updated><id>//</id><title type="html">20k Budget</title><subtitle>My name is Fabricio Zuardi and this is the diary of my journey into developing a low-budget indie game.
+</subtitle><entry><title type="html">Hello World pt. 2</title><link href="/2017/03/01/hello-pt2.html" rel="alternate" type="text/html" title="Hello World pt. 2" /><published>2017-03-01T00:00:00-03:00</published><updated>2017-03-01T00:00:00-03:00</updated><id>/2017/03/01/hello-pt2</id><content type="html" xml:base="/2017/03/01/hello-pt2.html">&lt;p&gt;So, my &lt;a href=&quot;https://github.com/20kbudget/hello&quot;&gt;simple cordova Android app&lt;/a&gt; has a working
+build system and a local dev environment.&lt;/p&gt;
+
+&lt;p&gt;I can &lt;code class=&quot;highlighter-rouge&quot;&gt;yarn start&lt;/code&gt; to test it in the browser, then &lt;code class=&quot;highlighter-rouge&quot;&gt;yarn build&lt;/code&gt;
+to make a bundle that can then run on my plugged android phone with &lt;code class=&quot;highlighter-rouge&quot;&gt;yarn debug&lt;/code&gt;
+and if I am happy with the results I can generate a minified release with &lt;code class=&quot;highlighter-rouge&quot;&gt;yarn release&lt;/code&gt;
+aren’t &lt;a href=&quot;https://www.keithcirkel.co.uk/how-to-use-npm-as-a-build-tool/&quot;&gt;npm scripts&lt;/a&gt; great? :)&lt;/p&gt;
+
+&lt;p&gt;And since the android app shell is done, lets continue to use this 
+repo as a &lt;em&gt;sandbox/playground&lt;/em&gt; to test other things!&lt;/p&gt;
+
+&lt;h2 id=&quot;pull-streams-and-user-interaction&quot;&gt;Pull streams and user interaction&lt;/h2&gt;
+
+&lt;p&gt;I like the idea of dealing with input events as
+infinite sequences, as event streams. Frameworks like &lt;a href=&quot;https://cycle.js.org&quot;&gt;Cycle.js&lt;/a&gt;
+are based on &lt;a href=&quot;https://cycle.js.org/#-dataflow&quot;&gt;that idea&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Stream_(computing)&quot;&gt;Streams&lt;/a&gt; are a neat abstraction, as well as &lt;a href=&quot;https://github.com/sindresorhus/awesome-observables&quot;&gt;observables&lt;/a&gt;.
+And &lt;a href=&quot;https://github.com/pull-stream/pull-stream&quot;&gt;pull-stream&lt;/a&gt; is a very elegant pattern to handle streams.&lt;/p&gt;
+
+&lt;p&gt;So I decided to check if pull-streams would be a good fit for 
+interactive programs like games.&lt;/p&gt;
+
+&lt;p&gt;And I made my hello world text displayed on screen be a 
+sequence of hello worlds of different colors (source) that
+is consumed by the screen (sink), but throttled by user
+clicks (through).&lt;/p&gt;
+
+&lt;p&gt;And of that click pull stream throttler I’ve made a small
+npm module that implements this in the context of
+the &lt;a href=&quot;http://pixijs.download/dev/docs/index.html&quot;&gt;Pixi.js API&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;It’s called &lt;a href=&quot;https://github.com/20kbudget/pull-pixi-sprite-event&quot;&gt;pull-pixi-sprite-event&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;And here is the &lt;a href=&quot;https://github.com/20kbudget/hello/releases/tag/v0.3.2&quot;&gt;release 0.3.2&lt;/a&gt; of the hello world app for android.&lt;/p&gt;</content><summary type="html">So, my simple cordova Android app has a working
+build system and a local dev environment.</summary></entry><entry><title type="html">Daily Report</title><link href="/2017/02/22/report.html" rel="alternate" type="text/html" title="Daily Report" /><published>2017-02-22T00:00:00-03:00</published><updated>2017-02-22T00:00:00-03:00</updated><id>/2017/02/22/report</id><content type="html" xml:base="/2017/02/22/report.html">&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Timesheet: dev
     Day                Start      End        Duration   Notes
     Wed Feb 22, 2017   12:53:52 - 13:40:00   0:46:08    add basic style to hello app to fill whole screen
                                                         size

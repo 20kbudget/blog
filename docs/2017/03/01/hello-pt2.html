@@ -6,11 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>20k Budget</title>
-  <meta name="description" content="My name is Fabricio Zuardi and this is the diary of my journey into developing a low-budget indie game.">
+  <title>Hello World pt. 2</title>
+  <meta name="description" content="So, my simple cordova Android app has a working build system and a local dev environment.">
 
   <link rel="stylesheet" href="/assets/main.css">
-  <link rel="canonical" href="/">
+  <link rel="canonical" href="/2017/03/01/hello-pt2.html">
   <link rel="alternate" type="application/rss+xml" title="20k Budget" href="/feed.xml">
   
   
@@ -58,84 +58,55 @@
 
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        <div class="home">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-  <h1 class="page-heading">Posts</h1>
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Hello World pt. 2</h1>
+    <p class="post-meta"><time datetime="2017-03-01T00:00:00-03:00" itemprop="datePublished">Mar 1, 2017</time></p>
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+    <p>So, my <a href="https://github.com/20kbudget/hello">simple cordova Android app</a> has a working
+build system and a local dev environment.</p>
+
+<p>I can <code class="highlighter-rouge">yarn start</code> to test it in the browser, then <code class="highlighter-rouge">yarn build</code>
+to make a bundle that can then run on my plugged android phone with <code class="highlighter-rouge">yarn debug</code>
+and if I am happy with the results I can generate a minified release with <code class="highlighter-rouge">yarn release</code>
+aren’t <a href="https://www.keithcirkel.co.uk/how-to-use-npm-as-a-build-tool/">npm scripts</a> great? :)</p>
+
+<p>And since the android app shell is done, lets continue to use this 
+repo as a <em>sandbox/playground</em> to test other things!</p>
+
+<h2 id="pull-streams-and-user-interaction">Pull streams and user interaction</h2>
+
+<p>I like the idea of dealing with input events as
+infinite sequences, as event streams. Frameworks like <a href="https://cycle.js.org">Cycle.js</a>
+are based on <a href="https://cycle.js.org/#-dataflow">that idea</a>.</p>
+
+<p><a href="https://en.wikipedia.org/wiki/Stream_(computing)">Streams</a> are a neat abstraction, as well as <a href="https://github.com/sindresorhus/awesome-observables">observables</a>.
+And <a href="https://github.com/pull-stream/pull-stream">pull-stream</a> is a very elegant pattern to handle streams.</p>
+
+<p>So I decided to check if pull-streams would be a good fit for 
+interactive programs like games.</p>
+
+<p>And I made my hello world text displayed on screen be a 
+sequence of hello worlds of different colors (source) that
+is consumed by the screen (sink), but throttled by user
+clicks (through).</p>
+
+<p>And of that click pull stream throttler I’ve made a small
+npm module that implements this in the context of
+the <a href="http://pixijs.download/dev/docs/index.html">Pixi.js API</a>.</p>
+
+<p>It’s called <a href="https://github.com/20kbudget/pull-pixi-sprite-event">pull-pixi-sprite-event</a>.</p>
+
+<p>And here is the <a href="https://github.com/20kbudget/hello/releases/tag/v0.3.2">release 0.3.2</a> of the hello world app for android.</p>
+
+
+  </div>
+
   
-  
-
-
-  <ul class="post-list">
-    
-      <li>
-        <span class="post-meta">Mar 1, 2017</span>
-
-        <h2>
-          <a class="post-link" href="/2017/03/01/hello-pt2.html">Hello World pt. 2</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Feb 22, 2017</span>
-
-        <h2>
-          <a class="post-link" href="/2017/02/22/report.html">Daily Report</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Feb 22, 2017</span>
-
-        <h2>
-          <a class="post-link" href="/2017/02/22/cordova-fullscreen.html">Fullscreen on Cordova</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Feb 21, 2017</span>
-
-        <h2>
-          <a class="post-link" href="/2017/02/21/daily-02.html">Hello World pt. I</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Feb 20, 2017</span>
-
-        <h2>
-          <a class="post-link" href="/2017/02/20/daily-01.html">Daily Status (Sat, Sun, Mon)</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Feb 18, 2017</span>
-
-        <h2>
-          <a class="post-link" href="/2017/02/18/timesheet.html">Time tracking</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Feb 17, 2017</span>
-
-        <h2>
-          <a class="post-link" href="/2017/02/17/crowdsale.html">Raising funds: what is a Crowdsale?</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Feb 16, 2017</span>
-
-        <h2>
-          <a class="post-link" href="/2017/02/16/the-bet.html">The Bet</a>
-        </h2>
-      </li>
-    
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p>
-
-</div>
+</article>
 
       </div>
     </main>
