@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.4.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2017-03-01T18:32:35-03:00</updated><id>//</id><title type="html">20k Budget</title><subtitle>My name is Fabricio Zuardi and this is the diary of my journey into developing a low-budget indie game.
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.4.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2017-03-01T23:02:12-03:00</updated><id>//</id><title type="html">20k Budget</title><subtitle>My name is Fabricio Zuardi and this is the diary of my journey into developing a low-budget indie game.
 </subtitle><entry><title type="html">Hello World pt. 2</title><link href="/2017/03/01/hello-pt2.html" rel="alternate" type="text/html" title="Hello World pt. 2" /><published>2017-03-01T00:00:00-03:00</published><updated>2017-03-01T00:00:00-03:00</updated><id>/2017/03/01/hello-pt2</id><content type="html" xml:base="/2017/03/01/hello-pt2.html">&lt;p&gt;So, my &lt;a href=&quot;https://github.com/20kbudget/hello&quot;&gt;simple cordova Android app&lt;/a&gt; has a working
 build system and a local dev environment.&lt;/p&gt;
 
@@ -16,8 +16,8 @@ repo as a &lt;em&gt;sandbox/playground&lt;/em&gt; to test other things!&lt;/p&gt
 infinite sequences, as event streams. Frameworks like &lt;a href=&quot;https://cycle.js.org&quot;&gt;Cycle.js&lt;/a&gt;
 are based on &lt;a href=&quot;https://cycle.js.org/#-dataflow&quot;&gt;that idea&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Stream_(computing)&quot;&gt;Streams&lt;/a&gt; are a neat abstraction, as well as &lt;a href=&quot;https://github.com/sindresorhus/awesome-observables&quot;&gt;observables&lt;/a&gt;.
-And &lt;a href=&quot;https://github.com/pull-stream/pull-stream&quot;&gt;pull-stream&lt;/a&gt; is a very elegant pattern to handle streams.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Stream_(computing)&quot;&gt;Streams&lt;/a&gt; are a neat abstraction, as well as &lt;a href=&quot;https://github.com/sindresorhus/awesome-observables&quot;&gt;observables&lt;/a&gt;(&lt;a href=&quot;http://reactivex.io/documentation/observable.html&quot;&gt;see also&lt;/a&gt;).
+And I personally find &lt;a href=&quot;https://github.com/pull-stream/pull-stream&quot;&gt;pull-stream&lt;/a&gt; a very elegant pattern to handle streams.&lt;/p&gt;
 
 &lt;p&gt;So I decided to check if pull-streams would be a good fit for 
 interactive programs like games.&lt;/p&gt;
@@ -33,7 +33,7 @@ the &lt;a href=&quot;http://pixijs.download/dev/docs/index.html&quot;&gt;Pixi.js
 
 &lt;p&gt;It’s called &lt;a href=&quot;https://github.com/20kbudget/pull-pixi-sprite-event&quot;&gt;pull-pixi-sprite-event&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;And here is the &lt;a href=&quot;https://github.com/20kbudget/hello/releases/tag/v0.3.2&quot;&gt;release 0.3.2&lt;/a&gt; of the hello world app for android.&lt;/p&gt;</content><summary type="html">So, my simple cordova Android app has a working
+&lt;p&gt;&lt;small&gt;(At the time of this post, my hello world app was at &lt;a href=&quot;https://github.com/20kbudget/hello/releases/tag/v0.3.2&quot;&gt;release 0.3.2&lt;/a&gt;)&lt;/small&gt;&lt;/p&gt;</content><summary type="html">So, my simple cordova Android app has a working
 build system and a local dev environment.</summary></entry><entry><title type="html">Daily Report</title><link href="/2017/02/22/report.html" rel="alternate" type="text/html" title="Daily Report" /><published>2017-02-22T00:00:00-03:00</published><updated>2017-02-22T00:00:00-03:00</updated><id>/2017/02/22/report</id><content type="html" xml:base="/2017/02/22/report.html">&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Timesheet: dev
     Day                Start      End        Duration   Notes
     Wed Feb 22, 2017   12:53:52 - 13:40:00   0:46:08    add basic style to hello app to fill whole screen
