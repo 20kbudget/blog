@@ -1,5 +1,35 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.4.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2017-03-01T23:02:12-03:00</updated><id>//</id><title type="html">20k Budget</title><subtitle>My name is Fabricio Zuardi and this is the diary of my journey into developing a low-budget indie game.
-</subtitle><entry><title type="html">Hello World pt. 2</title><link href="/2017/03/01/hello-pt2.html" rel="alternate" type="text/html" title="Hello World pt. 2" /><published>2017-03-01T00:00:00-03:00</published><updated>2017-03-01T00:00:00-03:00</updated><id>/2017/03/01/hello-pt2</id><content type="html" xml:base="/2017/03/01/hello-pt2.html">&lt;p&gt;So, my &lt;a href=&quot;https://github.com/20kbudget/hello&quot;&gt;simple cordova Android app&lt;/a&gt; has a working
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.4.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2017-03-04T20:55:55-03:00</updated><id>//</id><title type="html">20k Budget</title><subtitle>My name is Fabricio Zuardi and this is the diary of my journey into developing a low-budget indie game.
+</subtitle><entry><title type="html">Racing Game</title><link href="/2017/03/04/demo-road.html" rel="alternate" type="text/html" title="Racing Game" /><published>2017-03-04T00:00:00-03:00</published><updated>2017-03-04T00:00:00-03:00</updated><id>/2017/03/04/demo-road</id><content type="html" xml:base="/2017/03/04/demo-road.html">&lt;p&gt;Ok, so I forked my &lt;a href=&quot;https://github.com/20kbudget/hello&quot;&gt;hello world&lt;/a&gt; into a different project: a &lt;a href=&quot;https://github.com/20kbudget/road&quot;&gt;racing game&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;It is still with the purpose of working as a sandbox to test and improve my
+modules and theories, and most likely won’t be the final game of this journey.&lt;/p&gt;
+
+&lt;p&gt;This is for practice, like a musician or a painter does drafts and scales. My strategy 
+is to work on short sprints and build the building blocks that could be used on any 
+other project. I need to accumulate experience, feel the performance trade-offs for myself, 
+test different markets by launching crappy games, I need to build up portfolio.&lt;/p&gt;
+
+&lt;p&gt;I would like to have some stuff to show before the first &lt;a href=&quot;http://blog.20kbudget.com/2017/02/17/crowdsale.html&quot;&gt;ICO&lt;/a&gt; round (I am planning to do 5 or 6 
+in total). I need demos with good gameplay to give confidence to my investors. And I dont want
+to spend lots of time planning or writing a detailed project document &lt;strong&gt;knowing
+that making software is like writing a novel&lt;/strong&gt; and several things &lt;strong&gt;wil change&lt;/strong&gt; along the way.&lt;/p&gt;
+
+&lt;p&gt;The kickstarter model wont work here. My approach is bottom-up.&lt;/p&gt;
+
+&lt;p&gt;Anyways, if I want to practice, experiment and jam, participating in “game jams” is
+a good thing.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://itch.io/&quot;&gt;Itch.io&lt;/a&gt; has a nice &lt;a href=&quot;https://itch.io/jams&quot;&gt;calendar&lt;/a&gt; of those events, and I may use them as
+excuse to create, publish and having people testing my demos….&lt;/p&gt;
+
+&lt;h3 id=&quot;about-the-road-demo&quot;&gt;About the “road” demo&lt;/h3&gt;
+
+&lt;p&gt;This is the game I am building for the &lt;a href=&quot;https://itch.io/jam/resistjam&quot;&gt;Resist Jam&lt;/a&gt;, I will use &lt;a href=&quot;https://kenney.nl/assets/racing-pack&quot;&gt;fantastic 
+free assets&lt;/a&gt; from &lt;a href=&quot;https://kenney.nl&quot;&gt;kenney&lt;/a&gt; and I am in the proccess of figuring out
+how a racing game will fit the theme yet, but have a pretty good insights already.&lt;/p&gt;
+
+&lt;p&gt;Here is the &lt;a href=&quot;https://github.com/20kbudget/road/releases/tag/v0.4.0&quot;&gt;first release&lt;/a&gt;, and it is super boring because it is not interactive, it is
+just an animation of a top-down road passing by.&lt;/p&gt;</content><summary type="html">Ok, so I forked my hello world into a different project: a racing game.</summary></entry><entry><title type="html">Hello World pt. 2</title><link href="/2017/03/01/hello-pt2.html" rel="alternate" type="text/html" title="Hello World pt. 2" /><published>2017-03-01T00:00:00-03:00</published><updated>2017-03-01T00:00:00-03:00</updated><id>/2017/03/01/hello-pt2</id><content type="html" xml:base="/2017/03/01/hello-pt2.html">&lt;p&gt;So, my &lt;a href=&quot;https://github.com/20kbudget/hello&quot;&gt;simple cordova Android app&lt;/a&gt; has a working
 build system and a local dev environment.&lt;/p&gt;
 
 &lt;p&gt;I can &lt;code class=&quot;highlighter-rouge&quot;&gt;yarn start&lt;/code&gt; to test it in the browser, then &lt;code class=&quot;highlighter-rouge&quot;&gt;yarn build&lt;/code&gt;
