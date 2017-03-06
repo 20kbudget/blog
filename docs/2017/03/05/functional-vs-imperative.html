@@ -6,11 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>20k Budget</title>
-  <meta name="description" content="My name is Fabricio Zuardi and this is the diary of my journey into developing a low-budget indie game.">
+  <title>Is imperative programming imperative for game dev?</title>
+  <meta name="description" content="In software development, early optimization is usually a sin.">
 
   <link rel="stylesheet" href="/assets/main.css">
-  <link rel="canonical" href="/">
+  <link rel="canonical" href="/2017/03/05/functional-vs-imperative.html">
   <link rel="alternate" type="application/rss+xml" title="20k Budget" href="/feed.xml">
   
   
@@ -58,100 +58,45 @@
 
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        <div class="home">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-  <h1 class="page-heading">Posts</h1>
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Is imperative programming imperative for game dev?</h1>
+    <p class="post-meta"><time datetime="2017-03-05T00:00:00-03:00" itemprop="datePublished">Mar 5, 2017</time></p>
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+    <p>In software development, early optimization is usually a sin.</p>
+
+<p>But a smooth gamepaly is simply a requirement for some types of
+games (like a racing demo), so I had to check if an acceptable
+framerate was even possible to start with.</p>
+
+<p>So, today I used a good part of my Sunday trying to improve the FPS of
+my little demo.</p>
+
+<p>And after some experimentation reality kicked in:
+the clean and nice functional approach that I was thriving for in the code
+wasnt really a match for the shared-modifiable-state-lets-just-use-another-global-here
+imperative style alternative. :(</p>
+
+<p>It is already bad enough that I am using garbage-collected Javascript to
+build a game, and that the framework I picked to use (pixi.js) is all 
+object oriented and heavily based on side effects :P</p>
+
+<p>I ended up refactoring the code to something I am not proud of in order
+to get a less-laggy demo, imperative won this battle today, but I havent 
+gave up yet, and more refactoring is comming tomorrow. I need to
+find a good balance/compromise, this is 2017 after all, we were
+supose to have spare memory and cpu cycles to afford our pure functions
+and immutability by now. I want to insist on the ideal!</p>
+
+<p>Anyways, here is the <a href="https://github.com/20kbudget/road/releases/tag/v0.5.0">daily build</a>.</p>
+
+  </div>
+
   
-  
-
-
-  <ul class="post-list">
-    
-      <li>
-        <span class="post-meta">Mar 5, 2017</span>
-
-        <h2>
-          <a class="post-link" href="/2017/03/05/functional-vs-imperative.html">Is imperative programming imperative for game dev?</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Mar 4, 2017</span>
-
-        <h2>
-          <a class="post-link" href="/2017/03/04/demo-road.html">Racing Game</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Mar 1, 2017</span>
-
-        <h2>
-          <a class="post-link" href="/2017/03/01/hello-pt2.html">Hello World pt. 2</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Feb 22, 2017</span>
-
-        <h2>
-          <a class="post-link" href="/2017/02/22/report.html">Daily Report</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Feb 22, 2017</span>
-
-        <h2>
-          <a class="post-link" href="/2017/02/22/cordova-fullscreen.html">Fullscreen on Cordova</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Feb 21, 2017</span>
-
-        <h2>
-          <a class="post-link" href="/2017/02/21/daily-02.html">Hello World pt. I</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Feb 20, 2017</span>
-
-        <h2>
-          <a class="post-link" href="/2017/02/20/daily-01.html">Daily Status (Sat, Sun, Mon)</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Feb 18, 2017</span>
-
-        <h2>
-          <a class="post-link" href="/2017/02/18/timesheet.html">Time tracking</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Feb 17, 2017</span>
-
-        <h2>
-          <a class="post-link" href="/2017/02/17/crowdsale.html">Raising funds: what is a Crowdsale?</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Feb 16, 2017</span>
-
-        <h2>
-          <a class="post-link" href="/2017/02/16/the-bet.html">The Bet</a>
-        </h2>
-      </li>
-    
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p>
-
-</div>
+</article>
 
       </div>
     </main>

@@ -1,5 +1,30 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.4.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2017-03-04T20:55:55-03:00</updated><id>//</id><title type="html">20k Budget</title><subtitle>My name is Fabricio Zuardi and this is the diary of my journey into developing a low-budget indie game.
-</subtitle><entry><title type="html">Racing Game</title><link href="/2017/03/04/demo-road.html" rel="alternate" type="text/html" title="Racing Game" /><published>2017-03-04T00:00:00-03:00</published><updated>2017-03-04T00:00:00-03:00</updated><id>/2017/03/04/demo-road</id><content type="html" xml:base="/2017/03/04/demo-road.html">&lt;p&gt;Ok, so I forked my &lt;a href=&quot;https://github.com/20kbudget/hello&quot;&gt;hello world&lt;/a&gt; into a different project: a &lt;a href=&quot;https://github.com/20kbudget/road&quot;&gt;racing game&lt;/a&gt;.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.4.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2017-03-06T00:27:52-03:00</updated><id>//</id><title type="html">20k Budget</title><subtitle>My name is Fabricio Zuardi and this is the diary of my journey into developing a low-budget indie game.
+</subtitle><entry><title type="html">Is imperative programming imperative for game dev?</title><link href="/2017/03/05/functional-vs-imperative.html" rel="alternate" type="text/html" title="Is imperative programming imperative for game dev?" /><published>2017-03-05T00:00:00-03:00</published><updated>2017-03-05T00:00:00-03:00</updated><id>/2017/03/05/functional-vs-imperative</id><content type="html" xml:base="/2017/03/05/functional-vs-imperative.html">&lt;p&gt;In software development, early optimization is usually a sin.&lt;/p&gt;
+
+&lt;p&gt;But a smooth gamepaly is simply a requirement for some types of
+games (like a racing demo), so I had to check if an acceptable
+framerate was even possible to start with.&lt;/p&gt;
+
+&lt;p&gt;So, today I used a good part of my Sunday trying to improve the FPS of
+my little demo.&lt;/p&gt;
+
+&lt;p&gt;And after some experimentation reality kicked in:
+the clean and nice functional approach that I was thriving for in the code
+wasnt really a match for the shared-modifiable-state-lets-just-use-another-global-here
+imperative style alternative. :(&lt;/p&gt;
+
+&lt;p&gt;It is already bad enough that I am using garbage-collected Javascript to
+build a game, and that the framework I picked to use (pixi.js) is all 
+object oriented and heavily based on side effects :P&lt;/p&gt;
+
+&lt;p&gt;I ended up refactoring the code to something I am not proud of in order
+to get a less-laggy demo, imperative won this battle today, but I havent 
+gave up yet, and more refactoring is comming tomorrow. I need to
+find a good balance/compromise, this is 2017 after all, we were
+supose to have spare memory and cpu cycles to afford our pure functions
+and immutability by now. I want to insist on the ideal!&lt;/p&gt;
+
+&lt;p&gt;Anyways, here is the &lt;a href=&quot;https://github.com/20kbudget/road/releases/tag/v0.5.0&quot;&gt;daily build&lt;/a&gt;.&lt;/p&gt;</content><summary type="html">In software development, early optimization is usually a sin.</summary></entry><entry><title type="html">Racing Game</title><link href="/2017/03/04/demo-road.html" rel="alternate" type="text/html" title="Racing Game" /><published>2017-03-04T00:00:00-03:00</published><updated>2017-03-04T00:00:00-03:00</updated><id>/2017/03/04/demo-road</id><content type="html" xml:base="/2017/03/04/demo-road.html">&lt;p&gt;Ok, so I forked my &lt;a href=&quot;https://github.com/20kbudget/hello&quot;&gt;hello world&lt;/a&gt; into a different project: a &lt;a href=&quot;https://github.com/20kbudget/road&quot;&gt;racing game&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;It is still with the purpose of working as a sandbox to test and improve my
 modules and theories, and most likely won’t be the final game of this journey.&lt;/p&gt;
