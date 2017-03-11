@@ -1,5 +1,33 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.4.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2017-03-06T00:27:52-03:00</updated><id>//</id><title type="html">20k Budget</title><subtitle>My name is Fabricio Zuardi and this is the diary of my journey into developing a low-budget indie game.
-</subtitle><entry><title type="html">Is imperative programming imperative for game dev?</title><link href="/2017/03/05/functional-vs-imperative.html" rel="alternate" type="text/html" title="Is imperative programming imperative for game dev?" /><published>2017-03-05T00:00:00-03:00</published><updated>2017-03-05T00:00:00-03:00</updated><id>/2017/03/05/functional-vs-imperative</id><content type="html" xml:base="/2017/03/05/functional-vs-imperative.html">&lt;p&gt;In software development, early optimization is usually a sin.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.4.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2017-03-11T18:13:28-03:00</updated><id>//</id><title type="html">20k Budget</title><subtitle>My name is Fabricio Zuardi and this is the diary of my journey into developing a low-budget indie game.
+</subtitle><entry><title type="html">Links (functional /  declarative gamedev)</title><link href="/2017/03/11/functional-gamedev-links.html" rel="alternate" type="text/html" title="Links (functional /  declarative gamedev)" /><published>2017-03-11T00:00:00-03:00</published><updated>2017-03-11T00:00:00-03:00</updated><id>/2017/03/11/functional-gamedev-links</id><content type="html" xml:base="/2017/03/11/functional-gamedev-links.html">&lt;p&gt;Links regarding the use of Functional / Declarative
+approaches in game development, that people will usually end up when researching 
+those subjects:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.gamasutra.com/view/news/169296/Indepth_Functional_programming_in_C.php&quot;&gt;http://www.gamasutra.com/view/news/169296/Indepth_Functional_programming_in_C.php&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://prog21.dadgum.com/23.html (all 4 parts + followup post)&quot;&gt;http://prog21.dadgum.com/23.html (all 4 parts + followup post)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.infoq.com/presentations/game-functional-reactive-programming&quot;&gt;https://www.infoq.com/presentations/game-functional-reactive-programming&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://youtu.be/1PhArSujR_A?t=2m6s &quot;&gt;https://youtu.be/1PhArSujR_A?t=2m6s &lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=TW1ie0pIO_E&quot;&gt;https://www.youtube.com/watch?v=TW1ie0pIO_E&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=0GzzFeS5cMc&quot;&gt;https://www.youtube.com/watch?v=0GzzFeS5cMc&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=avwDj3KRuLc&quot;&gt;https://www.youtube.com/watch?v=avwDj3KRuLc&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I guess the reason for not updating this diary in the previous days was that 
+I havent gave up completely to the imperative-way totally yet and I am spending lots of
+time coding and reasoning a lot on how to write my games in a way 
+that is data-based and in a manner that is readable/maintainable/testeable
+and still with good performance.&lt;/p&gt;
+
+&lt;p&gt;I feel that I am falling in a trap here, wanting to have my cake and
+eat it too, and that I may fail horribly because of constant refactoring
+and analisys paralisys. Like many others before me.&lt;/p&gt;
+
+&lt;p&gt;Anyways, I am also enjoying this potentially unhealthy procrastination,
+so that’s fine for now. I intent to be back on track next week and
+to have better news and prototypes to show soon :P&lt;/p&gt;</content><summary type="html">Links regarding the use of Functional / Declarative
+approaches in game development, that people will usually end up when researching 
+those subjects:</summary></entry><entry><title type="html">Is imperative programming imperative for game dev?</title><link href="/2017/03/05/functional-vs-imperative.html" rel="alternate" type="text/html" title="Is imperative programming imperative for game dev?" /><published>2017-03-05T00:00:00-03:00</published><updated>2017-03-05T00:00:00-03:00</updated><id>/2017/03/05/functional-vs-imperative</id><content type="html" xml:base="/2017/03/05/functional-vs-imperative.html">&lt;p&gt;In software development, early optimization is usually a sin.&lt;/p&gt;
 
 &lt;p&gt;But a smooth gamepaly is simply a requirement for some types of
 games (like a racing demo), so I had to check if an acceptable
@@ -350,23 +378,4 @@ assets sales and differentiate it from traditional equity crowdfunding.&lt;/p&gt
 
 &lt;p&gt;There are different platforms, blockchains and protocols available for doing a crowdsale,
 some of them are built on top of Bitcoin, some on top of Ethereum and others. The Bitcoin network is the most 
-secure because of proof of work and adoption.&lt;/p&gt;</content><summary type="html">Projects demands resources, and funding is always a challenge.</summary></entry><entry><title type="html">The Bet</title><link href="/2017/02/16/the-bet.html" rel="alternate" type="text/html" title="The Bet" /><published>2017-02-16T00:00:00-02:00</published><updated>2017-02-16T00:00:00-02:00</updated><id>/2017/02/16/the-bet</id><content type="html" xml:base="/2017/02/16/the-bet.html">&lt;h2 id=&quot;main-question&quot;&gt;Main question:&lt;/h2&gt;
-
-&lt;p&gt;Can a good indie game be written on a shoestring budget?&lt;/p&gt;
-
-&lt;h2 id=&quot;secondary-questions&quot;&gt;Secondary questions:&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Can a project based on openness, transparency and free licences make money to it’s investors?&lt;/li&gt;
-  &lt;li&gt;Is it possible to make a commercially successful mobile app with a budget of under 20k dollars?&lt;/li&gt;
-  &lt;li&gt;How difficult would it be to raise money for developing such an app?&lt;/li&gt;
-  &lt;li&gt;What kind of team would be necessary?&lt;/li&gt;
-  &lt;li&gt;Do I have the skills to lead this effort and make it happen?&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;That’s the challenge, the experiment, the journey I am starting today.
-I want to figure out how far can a project that challenges stablished business models go.&lt;/p&gt;
-
-&lt;p&gt;Mostly likely I will fail.&lt;/p&gt;
-
-&lt;p&gt;But if you want to follow my exploration and discoveries please stick around.&lt;/p&gt;</content><summary type="html">Main question:</summary></entry></feed>
+secure because of proof of work and adoption.&lt;/p&gt;</content><summary type="html">Projects demands resources, and funding is always a challenge.</summary></entry></feed>
