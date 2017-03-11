@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.4.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2017-03-11T18:13:28-03:00</updated><id>//</id><title type="html">20k Budget</title><subtitle>My name is Fabricio Zuardi and this is the diary of my journey into developing a low-budget indie game.
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.4.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2017-03-11T18:18:53-03:00</updated><id>//</id><title type="html">20k Budget</title><subtitle>My name is Fabricio Zuardi and this is the diary of my journey into developing a low-budget indie game.
 </subtitle><entry><title type="html">Links (functional /  declarative gamedev)</title><link href="/2017/03/11/functional-gamedev-links.html" rel="alternate" type="text/html" title="Links (functional /  declarative gamedev)" /><published>2017-03-11T00:00:00-03:00</published><updated>2017-03-11T00:00:00-03:00</updated><id>/2017/03/11/functional-gamedev-links</id><content type="html" xml:base="/2017/03/11/functional-gamedev-links.html">&lt;p&gt;Links regarding the use of Functional / Declarative
 approaches in game development, that people will usually end up when researching 
 those subjects:&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;http://www.gamasutra.com/view/news/169296/Indepth_Functional_programming_in_C.php&quot;&gt;http://www.gamasutra.com/view/news/169296/Indepth_Functional_programming_in_C.php&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://prog21.dadgum.com/23.html (all 4 parts + followup post)&quot;&gt;http://prog21.dadgum.com/23.html (all 4 parts + followup post)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://prog21.dadgum.com/23.html&quot;&gt;http://prog21.dadgum.com/23.html&lt;/a&gt; (all 4 parts + followup post)&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.infoq.com/presentations/game-functional-reactive-programming&quot;&gt;https://www.infoq.com/presentations/game-functional-reactive-programming&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://youtu.be/1PhArSujR_A?t=2m6s &quot;&gt;https://youtu.be/1PhArSujR_A?t=2m6s &lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=TW1ie0pIO_E&quot;&gt;https://www.youtube.com/watch?v=TW1ie0pIO_E&lt;/a&gt;&lt;/li&gt;
