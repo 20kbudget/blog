@@ -7,7 +7,7 @@ approaches in game development, that people will usually end up when researching
 those subjects:
 
 - <http://www.gamasutra.com/view/news/169296/Indepth_Functional_programming_in_C.php>
-- <http://prog21.dadgum.com/23.html (all 4 parts + followup post)>
+- <http://prog21.dadgum.com/23.html> (all 4 parts + followup post)
 - <https://www.infoq.com/presentations/game-functional-reactive-programming>
 - <https://youtu.be/1PhArSujR_A?t=2m6s >
 - <https://www.youtube.com/watch?v=TW1ie0pIO_E>
