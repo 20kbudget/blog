@@ -1,5 +1,16 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.4.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2017-03-11T18:18:53-03:00</updated><id>//</id><title type="html">20k Budget</title><subtitle>My name is Fabricio Zuardi and this is the diary of my journey into developing a low-budget indie game.
-</subtitle><entry><title type="html">Links (functional /  declarative gamedev)</title><link href="/2017/03/11/functional-gamedev-links.html" rel="alternate" type="text/html" title="Links (functional /  declarative gamedev)" /><published>2017-03-11T00:00:00-03:00</published><updated>2017-03-11T00:00:00-03:00</updated><id>/2017/03/11/functional-gamedev-links</id><content type="html" xml:base="/2017/03/11/functional-gamedev-links.html">&lt;p&gt;Links regarding the use of Functional / Declarative
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.4.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2017-03-22T09:37:44-03:00</updated><id>//</id><title type="html">20k Budget</title><subtitle>My name is Fabricio Zuardi and this is the diary of my journey into developing a low-budget indie game.
+</subtitle><entry><title type="html">Exploring Regl</title><link href="/2017/03/22/regl.html" rel="alternate" type="text/html" title="Exploring Regl" /><published>2017-03-22T00:00:00-03:00</published><updated>2017-03-22T00:00:00-03:00</updated><id>/2017/03/22/regl</id><content type="html" xml:base="/2017/03/22/regl.html">&lt;p&gt;&lt;strong&gt;Quick update&lt;/strong&gt;: I continue exploring different webgl frameworks, and after finding
+&lt;a href=&quot;http://regl.party/&quot;&gt;regl&lt;/a&gt; I feel that this is a very good match for me and an elegant approach 
+for the renderer part of web-based games.&lt;/p&gt;
+
+&lt;p&gt;However, I don’t have the needed shader programming background to start using it 
+properly (as in: knowing what each line of code does), I can hack copy pasted code 
+and get the results I look for, but that’s no excuse for not learning the basis properly…&lt;/p&gt;
+
+&lt;p&gt;So, I started “attending” the &lt;a href=&quot;https://github.com/stackgl/shader-school&quot;&gt;shader-school&lt;/a&gt;, that is an incredible
+interactive workshop that covers important and basic concepts of the &lt;a href=&quot;https://en.wikipedia.org/wiki/OpenGL_Shading_Language&quot;&gt;OpenGL Shading Language&lt;/a&gt; (GLSL).&lt;/p&gt;</content><summary type="html">Quick update: I continue exploring different webgl frameworks, and after finding
+regl I feel that this is a very good match for me and an elegant approach 
+for the renderer part of web-based games.</summary></entry><entry><title type="html">Links (functional /  declarative gamedev)</title><link href="/2017/03/11/functional-gamedev-links.html" rel="alternate" type="text/html" title="Links (functional /  declarative gamedev)" /><published>2017-03-11T00:00:00-03:00</published><updated>2017-03-11T00:00:00-03:00</updated><id>/2017/03/11/functional-gamedev-links</id><content type="html" xml:base="/2017/03/11/functional-gamedev-links.html">&lt;p&gt;Links regarding the use of Functional / Declarative
 approaches in game development, that people will usually end up when researching 
 those subjects:&lt;/p&gt;
 
@@ -336,46 +347,4 @@ really dislike, and that is filling up &lt;strong&gt;fucking timesheets&lt;/stro
 CLI and simple ones, although I have used web based ones in the past 
 and they are quite OK as well (&lt;a href=&quot;https://toggl.com/&quot;&gt;toggl&lt;/a&gt; comes to mind). But nothing super fancy,
 I will just pick any half-decent one (maybe &lt;a href=&quot;https://github.com/samg/timetrap&quot;&gt;timetrap&lt;/a&gt;) and get this out of my way.&lt;/p&gt;</content><summary type="html">I am on a quest to figure out if it is possible to make money with
-a low budget independent game, among other things.</summary></entry><entry><title type="html">Raising funds: what is a Crowdsale?</title><link href="/2017/02/17/crowdsale.html" rel="alternate" type="text/html" title="Raising funds: what is a Crowdsale?" /><published>2017-02-17T00:00:00-02:00</published><updated>2017-02-17T00:00:00-02:00</updated><id>/2017/02/17/crowdsale</id><content type="html" xml:base="/2017/02/17/crowdsale.html">&lt;p&gt;Projects demands resources, and funding is always a challenge.&lt;/p&gt;
-
-&lt;p&gt;Among the available options for an indie developer or an indie development studio to raise money for a project, we have some
-options that are quite common and well tested, such as:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;sell the car&lt;/li&gt;
-  &lt;li&gt;burn of personal economies&lt;/li&gt;
-  &lt;li&gt;get a loan&lt;/li&gt;
-  &lt;li&gt;work for a company (and develop the project on your free time)&lt;/li&gt;
-  &lt;li&gt;ask for donations&lt;/li&gt;
-  &lt;li&gt;apply for a grant&lt;/li&gt;
-  &lt;li&gt;start a crowdfunding campaing&lt;/li&gt;
-  &lt;li&gt;start a company and sell securities of it in a highly regulated market, with different rules on each country&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;And there is another one, that is quite popular in the crypto-currencies space:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;sell digital assets (tokens) representing some reward&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;This last option is the one I am most interested in, since the issuance of tokens is simple and it is flexible enough
-for different kinds of arrangements. They can be used to:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;pay dividends for the token-holders&lt;/li&gt;
-  &lt;li&gt;give refunds on failure&lt;/li&gt;
-  &lt;li&gt;give token-holders voting rights&lt;/li&gt;
-  &lt;li&gt;represent some phisical reward&lt;/li&gt;
-  &lt;li&gt;represent ownership in the project&lt;/li&gt;
-  &lt;li&gt;be traded in the free market, or used as currency&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Basically you have enough flexibility to come up with any set of your own crazy rules, and even write software to enforce
-some of your made-up rules if you are inclined to go on that path.&lt;/p&gt;
-
-&lt;p&gt;People use the terms &lt;strong&gt;crowdsale&lt;/strong&gt;, or &lt;strong&gt;ICO&lt;/strong&gt; (initial coin offer), or &lt;strong&gt;equity crowdsale&lt;/strong&gt; to describe those digital
-assets sales and differentiate it from traditional equity crowdfunding.&lt;/p&gt;
-
-&lt;p&gt;There are different platforms, blockchains and protocols available for doing a crowdsale,
-some of them are built on top of Bitcoin, some on top of Ethereum and others. The Bitcoin network is the most 
-secure because of proof of work and adoption.&lt;/p&gt;</content><summary type="html">Projects demands resources, and funding is always a challenge.</summary></entry></feed>
+a low budget independent game, among other things.</summary></entry></feed>
