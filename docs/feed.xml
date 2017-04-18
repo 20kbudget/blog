@@ -1,5 +1,25 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.4.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2017-03-22T09:37:44-03:00</updated><id>//</id><title type="html">20k Budget</title><subtitle>My name is Fabricio Zuardi and this is the diary of my journey into developing a low-budget indie game.
-</subtitle><entry><title type="html">Exploring Regl</title><link href="/2017/03/22/regl.html" rel="alternate" type="text/html" title="Exploring Regl" /><published>2017-03-22T00:00:00-03:00</published><updated>2017-03-22T00:00:00-03:00</updated><id>/2017/03/22/regl</id><content type="html" xml:base="/2017/03/22/regl.html">&lt;p&gt;&lt;strong&gt;Quick update&lt;/strong&gt;: I continue exploring different webgl frameworks, and after finding
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.4.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2017-04-18T07:46:14-03:00</updated><id>//</id><title type="html">20k Budget</title><subtitle>My name is Fabricio Zuardi and this is the diary of my journey into developing a low-budget indie game.
+</subtitle><entry><title type="html">I am still here</title><link href="/2017/04/18/update.html" rel="alternate" type="text/html" title="I am still here" /><published>2017-04-18T00:00:00-03:00</published><updated>2017-04-18T00:00:00-03:00</updated><id>/2017/04/18/update</id><content type="html" xml:base="/2017/04/18/update.html">&lt;p&gt;I wasnt able too keep the updates here synced, so I will leave a note just
+to flag that I am still working on game-related stuff between other
+researches and procrastination.&lt;/p&gt;
+
+&lt;blockquote class=&quot;instagram-media&quot; data-instgrm-captioned=&quot;&quot; data-instgrm-version=&quot;7&quot; style=&quot; background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);&quot;&gt;&lt;div style=&quot;padding:8px;&quot;&gt; &lt;div style=&quot; background:#F8F8F8; line-height:0; margin-top:40px; padding:50.0% 0; text-align:center; width:100%;&quot;&gt; &lt;div style=&quot; background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;&quot;&gt;&lt;/div&gt;&lt;/div&gt; &lt;p style=&quot; margin:8px 0 0 0; padding:0 4px;&quot;&gt; &lt;a href=&quot;https://www.instagram.com/p/BRHZ10PF1N5/&quot; style=&quot; color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;&quot; target=&quot;_blank&quot;&gt;😬😬😬&lt;/a&gt;&lt;/p&gt; &lt;p style=&quot; color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;&quot;&gt;Uma publicação compartilhada por Loryn Brantz (@lorynbrantz) em &lt;time style=&quot; font-family:Arial,sans-serif; font-size:14px; line-height:17px;&quot; datetime=&quot;2017-03-02T00:30:26+00:00&quot;&gt;Mar 1, 2017 às 4:30 PST&lt;/time&gt;&lt;/p&gt;&lt;/div&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; defer=&quot;&quot; src=&quot;//platform.instagram.com/en_US/embeds.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;Also, I continue jumping from one idea to another, and from one
+technology stack to another, it is distracting and frustrating, 
+the progress is slower than the ideal, and slower than if this was
+a work for someone else. I kind of suck at being my own boss :P&lt;/p&gt;
+
+&lt;p&gt;One of my &lt;a href=&quot;https://mastodon.social/@fabricio&quot;&gt;main procrastinations at the moment is Mastodon&lt;/a&gt;, a social network
+that is not really own by any single entity or corrporation. But a 
+federation of multiple servers managed by different communities/admins
+where any node can choose which other communities they federate with. Very cool
+and based on multiple open protocols, I have written a &lt;a href=&quot;https://blog.fabricio.org/mastodonte/&quot;&gt;blogpost in Portuguese about Mastodon&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Thats it for now.&lt;/p&gt;</content><summary type="html">I wasnt able too keep the updates here synced, so I will leave a note just
+to flag that I am still working on game-related stuff between other
+researches and procrastination.</summary></entry><entry><title type="html">Exploring Regl</title><link href="/2017/03/22/regl.html" rel="alternate" type="text/html" title="Exploring Regl" /><published>2017-03-22T00:00:00-03:00</published><updated>2017-03-22T00:00:00-03:00</updated><id>/2017/03/22/regl</id><content type="html" xml:base="/2017/03/22/regl.html">&lt;p&gt;&lt;strong&gt;Quick update&lt;/strong&gt;: I continue exploring different webgl frameworks, and after finding
 &lt;a href=&quot;http://regl.party/&quot;&gt;regl&lt;/a&gt; I feel that this is a very good match for me and an elegant approach 
 for the renderer part of web-based games.&lt;/p&gt;
 
@@ -323,28 +343,4 @@ Grand Total                                 10:02:40
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 
-&lt;p&gt;For the moment I will be keeping the timesheets under my &lt;a href=&quot;https://github.com/20kbudget/expenses&quot;&gt;expenses&lt;/a&gt; repo.&lt;/p&gt;</content><summary type="html">Distribution Channels</summary></entry><entry><title type="html">Time tracking</title><link href="/2017/02/18/timesheet.html" rel="alternate" type="text/html" title="Time tracking" /><published>2017-02-18T00:00:00-02:00</published><updated>2017-02-18T00:00:00-02:00</updated><id>/2017/02/18/timesheet</id><content type="html" xml:base="/2017/02/18/timesheet.html">&lt;p&gt;I am on a quest to figure out if it is possible to make money with
-a low budget independent game, among &lt;a href=&quot;http://blog.20kbudget.com/2017/02/16/the-bet.html&quot;&gt;other things&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;In order to monitor how well I am doing, to give feedback and transparency
-to any potential &lt;a href=&quot;http://blog.20kbudget.com/2017/02/17/crowdsale.html&amp;lt;Paste&amp;gt;&quot;&gt;investors&lt;/a&gt; and even for my own control
-of where and how fast I am spending the arbitrary budget
-of 20k dolllars that I have set, I need to somehow log all my &lt;a href=&quot;https://github.com/20kbudget/expenses&quot;&gt;expenses&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;So if I hire an illustrator, a writer, a developer or some other kind of
-artist, my plan is to document that cost.&lt;/p&gt;
-
-&lt;p&gt;At the moment, I haven’t raised funds yet, and the only person
-that I know available to work without compensation for me is myself :)&lt;/p&gt;
-
-&lt;p&gt;But that’s not really true as well, because I will be investing my
-time in this one-person-team, so I figure I must do something that I
-really dislike, and that is filling up &lt;strong&gt;fucking timesheets&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;That way I will be able to pay myself eventually, which is nice.&lt;/p&gt;
-
-&lt;p&gt;So I will be testing a couple of options this weekend, I think I prefer
-CLI and simple ones, although I have used web based ones in the past 
-and they are quite OK as well (&lt;a href=&quot;https://toggl.com/&quot;&gt;toggl&lt;/a&gt; comes to mind). But nothing super fancy,
-I will just pick any half-decent one (maybe &lt;a href=&quot;https://github.com/samg/timetrap&quot;&gt;timetrap&lt;/a&gt;) and get this out of my way.&lt;/p&gt;</content><summary type="html">I am on a quest to figure out if it is possible to make money with
-a low budget independent game, among other things.</summary></entry></feed>
+&lt;p&gt;For the moment I will be keeping the timesheets under my &lt;a href=&quot;https://github.com/20kbudget/expenses&quot;&gt;expenses&lt;/a&gt; repo.&lt;/p&gt;</content><summary type="html">Distribution Channels</summary></entry></feed>
