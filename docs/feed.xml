@@ -1,5 +1,29 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.4.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2017-04-18T07:46:14-03:00</updated><id>//</id><title type="html">20k Budget</title><subtitle>My name is Fabricio Zuardi and this is the diary of my journey into developing a low-budget indie game.
-</subtitle><entry><title type="html">I am still here</title><link href="/2017/04/18/update.html" rel="alternate" type="text/html" title="I am still here" /><published>2017-04-18T00:00:00-03:00</published><updated>2017-04-18T00:00:00-03:00</updated><id>/2017/04/18/update</id><content type="html" xml:base="/2017/04/18/update.html">&lt;p&gt;I wasnt able too keep the updates here synced, so I will leave a note just
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.4.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2017-04-25T15:06:56-03:00</updated><id>//</id><title type="html">20k Budget</title><subtitle>My name is Fabricio Zuardi and this is the diary of my journey into developing a low-budget indie game.
+</subtitle><entry><title type="html">WebGL support on Chrome</title><link href="/2017/04/25/chrome-webgl-support-macbookpro-2009.html" rel="alternate" type="text/html" title="WebGL support on Chrome" /><published>2017-04-25T00:00:00-03:00</published><updated>2017-04-25T00:00:00-03:00</updated><id>/2017/04/25/chrome-webgl-support-macbookpro-2009</id><content type="html" xml:base="/2017/04/25/chrome-webgl-support-macbookpro-2009.html">&lt;p&gt;My work laptop is an old &lt;strong&gt;MacBook Pro (17-inch, Mid 2009)&lt;/strong&gt; 
+with the &lt;strong&gt;NVIDIA GeForce 9600M GT 512 MB&lt;/strong&gt; video card.&lt;/p&gt;
+
+&lt;p&gt;Firefox and Safari are both able to run my &lt;a href=&quot;https://github.com/20kbudget/conveyor&quot;&gt;current game experiment&lt;/a&gt;
+fine, but Chrome on that machine has GPU-acceleration disabled 
+by default because of some blacklist of unsupported / buggy 
+hardware and drivers :(&lt;/p&gt;
+
+&lt;p&gt;A simple way to check if your browser supports or have
+enabled WebGL is to visit &lt;a href=&quot;https://get.webgl.org/&quot;&gt;this test page&lt;/a&gt;.
+If you see a spinning cube then you are good to go.&lt;/p&gt;
+
+&lt;p&gt;My Chrome didn’t passed that simple test, so I went on investigating
+why… I know that my video card supports open gl and web gl, so 
+this should be just a matter of tweaking some configuration
+flags.&lt;/p&gt;
+
+&lt;p&gt;The two main config pages to look for are: &lt;strong&gt;chrome://gpu/&lt;/strong&gt;
+and the &lt;strong&gt;chrome://flags&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;For me, the first fix was to &lt;strong&gt;enable&lt;/strong&gt; the i&lt;strong&gt;chrome://flags/#ignore-gpu-blacklist&lt;/strong&gt;
+flag and restart the browser! \o/&lt;/p&gt;
+
+&lt;p&gt;Hooray!&lt;/p&gt;</content><summary type="html">My work laptop is an old MacBook Pro (17-inch, Mid 2009) 
+with the NVIDIA GeForce 9600M GT 512 MB video card.</summary></entry><entry><title type="html">I am still here</title><link href="/2017/04/18/update.html" rel="alternate" type="text/html" title="I am still here" /><published>2017-04-18T00:00:00-03:00</published><updated>2017-04-18T00:00:00-03:00</updated><id>/2017/04/18/update</id><content type="html" xml:base="/2017/04/18/update.html">&lt;p&gt;I wasnt able too keep the updates here synced, so I will leave a note just
 to flag that I am still working on game-related stuff between other
 researches and procrastination.&lt;/p&gt;
 
@@ -267,80 +291,4 @@ Grand Total                                  7:12:19
 &lt;/div&gt;</content><summary type="html">Today I started a simple Android app
 just to get my feets wet, test my stack and start writing
 the basics of a building system based on
-Javascript tooling.</summary></entry><entry><title type="html">Daily Status (Sat, Sun, Mon)</title><link href="/2017/02/20/daily-01.html" rel="alternate" type="text/html" title="Daily Status (Sat, Sun, Mon)" /><published>2017-02-20T00:00:00-03:00</published><updated>2017-02-20T00:00:00-03:00</updated><id>/2017/02/20/daily-01</id><content type="html" xml:base="/2017/02/20/daily-01.html">&lt;h2 id=&quot;distribution-channels&quot;&gt;Distribution Channels&lt;/h2&gt;
-
-&lt;p&gt;I got some time to spend in front of the computer
-this weekend and used it to research / compare different
-distribution channels: Apple App Store, 
-Google Play, Steam, Cidya, 
-&lt;a href=&quot;https://www.humblebundle.com/store&quot;&gt;Humble Store&lt;/a&gt;, &lt;a href=&quot;https://f-droid.org/&quot;&gt;fDroid&lt;/a&gt;,
-&lt;a href=&quot;https://ipfs.io/&quot;&gt;IPFS&lt;/a&gt;, and of course the World Wide Web.&lt;/p&gt;
-
-&lt;p&gt;The advantages of publishing a game on a mainstream
-digital store such as Apple Store or Google Play
-are undeniable big and super attractive.&lt;/p&gt;
-
-&lt;p&gt;I know that people happily trade software-freedom, 
-privacy and descentralization for convenience. 
-I am guilt of that too :( 
-So the centralized digital silos and unethical 
-walled gardens is &lt;strong&gt;where the audience, and therefore
-the money, is&lt;/strong&gt;. Which is bad, I know…&lt;/p&gt;
-
-&lt;p&gt;My plan is to start developing a great and “&lt;a href=&quot;https://www.fsf.org/about/what-is-free-software&quot;&gt;libre&lt;/a&gt;”
-web-game, &lt;strong&gt;with the web as primary distribution channel
-and Bitcoin as the payment network&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;And, nothing is stopping me from creating a crippled-down
-version of it, in order to conform with
-bullshit polices from those stores (hooray relicensing)
-wrap it in a native shell and publish it on 
-less-free channels that have a potentially bigger
-revenue and audience.&lt;/p&gt;
-
-&lt;p&gt;Having it available on fDroid and Humble Store would be great too.&lt;/p&gt;
-
-&lt;h2 id=&quot;timetrap&quot;&gt;Timetrap&lt;/h2&gt;
-
-&lt;p&gt;So I’ve installed &lt;a href=&quot;https://github.com/samg/timetrap&quot;&gt;timetrap&lt;/a&gt; to &lt;a href=&quot;http://blog.20kbudget.com/2017/02/18/timesheet.html&quot;&gt;log my
-time&lt;/a&gt; and it seems to be serving it’s purpose fine.&lt;/p&gt;
-
-&lt;p&gt;Here is the output related with this status report:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Timesheet: dev
-    Day                Start      End        Duration   Notes
-    Sun Feb 19, 2017   16:39:14 - 18:01:12   1:21:58    creating a cordova hello world
-                                             1:21:58
-    Mon Feb 20, 2017   11:47:16 - 12:34:21   0:47:05    cordova template
-                                             0:47:05
-    ------------------------------------------------------------------------------------------------
-    Total                                    2:09:03
-
-Timesheet: marketing
-    Day                Start      End        Duration   Notes
-    Mon Feb 20, 2017   18:01:45 - 19:19:11   1:17:26    blogpost giving with the first status update
-                                             1:17:26
-    ------------------------------------------------------------------------------------------------
-    Total                                    1:17:26
-
-Timesheet: research
-    Day                Start      End        Duration   Notes
-    Sat Feb 18, 2017   23:14:37 - 23:17:50   0:03:13    testing timetrap
-                       23:40:34 - 01:39:29   1:58:55    reading about different colored coins protocols
-                                             2:02:08
-    Sun Feb 19, 2017   10:21:45 - 11:18:19   0:56:34    read about different web view wrappers and app
-                                                        shell / app game shell options
-                       11:28:05 - 12:32:54   1:04:49    read about AGPL games on steam, play store and iOS
-                                             2:01:23
-    Mon Feb 20, 2017   15:18:38 - 17:51:18   2:32:40    read about play store and create a developer
-                                                        profile able to publish apk
-                                             2:32:40
-    ------------------------------------------------------------------------------------------------
-    Total                                    6:36:11
-----------------------------------------------------------------------------------------------------
-Grand Total                                 10:02:40
-
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;For the moment I will be keeping the timesheets under my &lt;a href=&quot;https://github.com/20kbudget/expenses&quot;&gt;expenses&lt;/a&gt; repo.&lt;/p&gt;</content><summary type="html">Distribution Channels</summary></entry></feed>
+Javascript tooling.</summary></entry></feed>
