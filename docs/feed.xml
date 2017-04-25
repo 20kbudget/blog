@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.4.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2017-04-25T15:09:37-03:00</updated><id>//</id><title type="html">20k Budget</title><subtitle>My name is Fabricio Zuardi and this is the diary of my journey into developing a low-budget indie game.
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.4.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2017-04-25T15:16:33-03:00</updated><id>//</id><title type="html">20k Budget</title><subtitle>My name is Fabricio Zuardi and this is the diary of my journey into developing a low-budget indie game.
 </subtitle><entry><title type="html">WebGL support in Chrome</title><link href="/2017/04/25/chrome-webgl-support-macbookpro-2009.html" rel="alternate" type="text/html" title="WebGL support in Chrome" /><published>2017-04-25T00:00:00-03:00</published><updated>2017-04-25T00:00:00-03:00</updated><id>/2017/04/25/chrome-webgl-support-macbookpro-2009</id><content type="html" xml:base="/2017/04/25/chrome-webgl-support-macbookpro-2009.html">&lt;p&gt;My work laptop is an old &lt;strong&gt;MacBook Pro (17-inch, Mid 2009)&lt;/strong&gt; 
 with the &lt;strong&gt;NVIDIA GeForce 9600M GT 512 MB&lt;/strong&gt; video card.&lt;/p&gt;
 
@@ -19,7 +19,7 @@ flags.&lt;/p&gt;
 &lt;p&gt;The two main config pages to look for are: &lt;strong&gt;chrome://gpu/&lt;/strong&gt;
 and the &lt;strong&gt;chrome://flags&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;For me, the first fix was to &lt;strong&gt;enable&lt;/strong&gt; the i&lt;strong&gt;chrome://flags/#ignore-gpu-blacklist&lt;/strong&gt;
+&lt;p&gt;For me, the first fix was to &lt;strong&gt;enable&lt;/strong&gt; the &lt;strong&gt;chrome://flags/#ignore-gpu-blacklist&lt;/strong&gt;
 flag and restart the browser! \o/&lt;/p&gt;
 
 &lt;p&gt;Hooray!&lt;/p&gt;</content><summary type="html">My work laptop is an old MacBook Pro (17-inch, Mid 2009) 
