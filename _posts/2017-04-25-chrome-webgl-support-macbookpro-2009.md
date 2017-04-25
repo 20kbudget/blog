@@ -1,5 +1,5 @@
 ---
-title: WebGL support on Chrome
+title: WebGL support in Chrome
 ---
 
 My work laptop is an old __MacBook Pro (17-inch, Mid 2009)__ 
