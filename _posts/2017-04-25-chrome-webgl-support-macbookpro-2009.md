@@ -22,7 +22,7 @@ flags.
 The two main config pages to look for are: **chrome://gpu/**
 and the **chrome://flags**
 
-For me, the first fix was to **enable** the i**chrome://flags/#ignore-gpu-blacklist**
+For me, the first fix was to **enable** the **chrome://flags/#ignore-gpu-blacklist**
 flag and restart the browser! \o/
 
 Hooray!
